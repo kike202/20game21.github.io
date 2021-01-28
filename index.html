@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<title>Invasores</title>
 	<style>
-		body{
+		body{ 
 			width: 600px;
 			margin: 0 auto;
 		}
@@ -262,7 +262,7 @@
 					imagenEnemigo = new Image ();
 					imagenEnemigo.src = "imagenes/invader.fw.png";
 					imagen.src = "imagenes/torre.fw.png";
-					mensaje("INVASORES");
+					mensaje("Comenzar");
 					intro.play();
 					imagen.onload = function (){
 						jugador = new Jugador(0);
@@ -283,8 +283,9 @@
 		}
 	</script>
 </head>
-<body>
-	<h1>CANVAS Invaders</h1>
+<body background="\Escritorio\Juegok\imagenes\fondo.jpg">
+	
+	<h1>¿Estas listo para jugar?</h1>
 	<canvas id="miCanvas" width="600px" height="500px">Tu navegador no soporta CANVAS</canvas>
 	<audio id="boing">
 		<source src="sonidos/boing.mp3">
