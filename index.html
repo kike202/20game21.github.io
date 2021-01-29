@@ -7,13 +7,16 @@
 		body{ 
 			width: 600px;
 			margin: 0 auto;
+			
 		}
 		h1{
 			text-align: center;
 		}
 		#miCanvas{
-			border:dotted 2px yellow;
-			background:black;
+			border:dotted 6px yellow;
+			background-image: url("imagenes/fondocan.jpg");
+			background-repeat: no-repeat; 
+			
 		}
 	</style>
 	<script>
@@ -283,7 +286,7 @@
 		}
 	</script>
 </head>
-<body background="\Escritorio\Juegok\imagenes\fondo.jpg">
+<body background="imagenes/fondo.jpg">
 	
 	<h1>¿Estas listo para jugar?</h1>
 	<canvas id="miCanvas" width="600px" height="500px">Tu navegador no soporta CANVAS</canvas>
@@ -304,4 +307,9 @@
 		<source src="sonidos/gameOver.ogg">
 	</audio>
 </body>
+
+<div style="color: white;">
+ <h2> El juego consiste en dispararle a las naves que quieren conquistar el planeta tierra,debes tener la agilidad y rapidez para no dejarte vencer. </h2>
+ 
+</div>
 </html>
